@@ -3,15 +3,60 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+nav{
+    background-color: gainsboro;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
 #main{
     width: 100%;
     padding: 5%;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 #main div{
-    width: 15%;
+    width: 40%;
     padding: 1%;
+    background-color: rgba(220, 220, 220, 0.212);
+    margin: 2%;
+    border-radius: 15px;
+}
+#blogMain{
+    width: 80%;
+    padding: 5%;
+    margin: auto;
+    background-color: rgba(220, 220, 220, 0.212);
+    border-radius: 5%;
+    margin-block: 40px;
+}
+
+#blogMain h1{
+    text-align: center;
+    color: rgb(112, 112, 112);
+
+}
+#blogMain p{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer{
+    margin-top: 16%;
+    background-color: gainsboro;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer span{
+    color: blue;
+    margin-inline: 4px;
 }
