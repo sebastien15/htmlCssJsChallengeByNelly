@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main div{
+    width: 15%;
+    padding: 1%;
+}
