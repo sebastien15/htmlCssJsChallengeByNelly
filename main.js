@@ -16,7 +16,7 @@ const displayUsers = (data)=>{
     const a = document.createElement('a')
     
     
-    a.setAttribute('href',`/blog.html?id=${element.id}`)
+    a.setAttribute('href',`/htmlCssJsChallengeByNelly/blog.html?id=${element.id}`)
     h1.innerText = element.name
     p.innerText = element.email
     console.log(element)
@@ -33,7 +33,7 @@ const displayUsers = (data)=>{
 if (blogMain != null) {
   const params = new URLSearchParams(window.location.search)
   const id = params.get('id')
-  
+
     fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
     .then((response) => response.json())
     .then((data) => displayPost(data));
