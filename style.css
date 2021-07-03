@@ -28,6 +28,12 @@ nav a{
     margin: 2%;
     border-radius: 15px;
 }
+#main div h1,#main div p,#main div a{
+    margin-block: 10px;
+}
+#main div a{
+    text-decoration: none;
+}
 #blogMain{
     width: 80%;
     padding: 5%;
@@ -59,4 +65,10 @@ footer{
 footer span{
     color: blue;
     margin-inline: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    #main div{
+        width: 100%;
+    }
 }
